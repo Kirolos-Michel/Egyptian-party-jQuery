@@ -1,0 +1,207 @@
+/* home screen */
+#basic {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+#basic h2 {
+    font-size: 60px;
+}
+
+#event {
+    position: relative;
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+#event h2 {
+    margin-top: 200px;
+    text-align: center;
+}
+
+#event p {
+    text-align: center;
+}
+
+.firstLayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.sideNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-color: #414658;
+}
+
+.sidenav a {
+    color: #818181;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.2s;
+    color: white;
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 35px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+/* singers page */
+#singers {
+    width: 50%;
+    padding: 100px 0;
+    margin: auto;
+}
+
+#singers h3 {
+    color: white;
+    background-color: rgba(214, 46, 51, 0.6);
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+
+#singers p {
+    background-color: #ccc;
+    padding: 10px;
+    display: none;
+}
+
+
+/* counter page */
+#counter {
+    position: relative;
+    background-image: url(../images/2.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+}
+
+.secondLayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.container {
+    padding: 100px 0px;
+}
+
+.time {
+    padding: 50px;
+    border: 1px solid #FFF;
+}
+
+
+/* join us page */
+#joinUs .title h2 {
+    font-size: 35px;
+    color: #444;
+    text-transform: uppercase;
+}
+
+#joinUs .title p {
+    font-size: 17px;
+    color: #777;
+    font-weight: 400;
+}
+
+#joinUs .info h3 {
+    color: #444;
+    font-size: 18px;
+}
+
+#joinUs .info p {
+    font-size: 17px;
+    color: #777;
+}
+
+#joinUs .icons p {
+    font-size: 17px;
+    color: #777;
+}
+
+#joinUs i {
+    margin-right: 20px;
+    color: #777;
+}
+
+#joinUs .red {
+    color: #D62E33 !important;
+}
+
+#joinUs .social {
+    margin-top: 60px;
+    color: #777;
+
+}
+
+#joinUs .social i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#joinUs .social i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+
+#joinUs form input {
+    border-radius: 0;
+}
+
+#joinUs form textarea {
+    border-radius: 0;
+    height: 200px;
+}
+
+#joinUs form button {
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+#characyer {
+    font-size: 20px;
+    color: #D62E33;
+}
